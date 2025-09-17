@@ -1,27 +1,40 @@
 {
   "name": "aquaguard-ai-dashboard",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "AquaGuard AI Smart Water Quality Monitoring Dashboard - SIH 2025",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint"
   },
   "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.3"
+    "next": "14.2.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.5.4",
+    "@types/node": "^20.16.2",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "tailwindcss": "^3.4.10",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.44",
+    "recharts": "^2.12.7",
+    "lucide-react": "^0.436.0",
+    "framer-motion": "^11.5.4",
+    "socket.io-client": "^4.7.5",
+    "react-hot-toast": "^2.4.1",
+    "date-fns": "^3.6.0",
+    "clsx": "^2.1.1",
+    "class-variance-authority": "^0.7.0",
+    "@radix-ui/react-progress": "^1.1.0",
+    "@radix-ui/react-select": "^2.1.1",
+    "@radix-ui/react-switch": "^1.1.0",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "react-speech-synthesis": "^1.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.5.3",
-    "@eslint/eslintrc": "^3"
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.7"
   }
 }
